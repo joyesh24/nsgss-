@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import Link from 'next/link'
 import { FileText, ArrowLeft, Calendar, User, Search, ChevronDown, ChevronUp, Bell } from 'lucide-react'
 import { useState, useEffect } from 'react'
-import LoadingScreen from '../components/LoadingScreen'
+
 
 const notices = [
   {
