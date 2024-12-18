@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import Link from 'next/link'
 import { ArrowLeft, BookOpen, Clock, ChevronDown, ChevronUp, Calendar } from 'lucide-react'
 import { useState, useEffect } from 'react'
-import LoadingScreen from '../components/LoadingScreen'
+
 
 const routine = [
   { day: 'রবিবার', classes: ['বাংলা', 'ইংরেজি', 'গণিত', 'বিজ্ঞান', 'সমাজ বিজ্ঞান'] },
