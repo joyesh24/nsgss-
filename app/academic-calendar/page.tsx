@@ -4,7 +4,6 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { ArrowLeft, Calendar, ChevronLeft, ChevronRight } from 'lucide-react'
 import { useState, useEffect } from 'react'
-import LoadingScreen from '../components/LoadingScreen'
 
 const months = [
   'জানুয়ারি', 'ফেব্রুয়ারি', 'মার্চ', 'এপ্রিল', 'মে', 'জুন',
